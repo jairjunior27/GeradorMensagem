@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+    margin-top: 2rem;
+}
+
+.gerador{
+    width: 90vw;
+    height: 70vh;
+    max-width: 600px;
+   
+}
+
+.conteudoGerador{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./moti.jpg);
+  
+    height:100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding:12px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    padding:10px 0;
+    text-align:center;
+}
+
+button{
+    width: 100%;
+    padding:.6rem;
+    margin: 10px 0 0 0;
+    background:rgb(0, 0, 0);
+    color: #ffff;
+    border-radius: 10px;
+}
